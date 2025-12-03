@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DELTA CAPF 2026 - All Subjects Portal</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>CAPF 2026 Course Portal</h1>
+            <p class="subtitle">WELCOME ALL DEAR  ASPIRANTS</p>
+        </header>
+
+        <div class="search-container">
+            <input 
+                type="text" 
+                id="searchInput" 
+                class="search-input" 
+                placeholder="Search for classes..."
+                autocomplete="off"
+            >
+        </div>
+
+        <div class="filter-container">
+           <button class="filter-btn active" data-category="all">All Subjects</button>
+            <button class="filter-btn" data-category="batchs">Batchsheet</button>
+             <button class="filter-btn" data-category="Answer writing">Answer Writing</button>
+            <button class="filter-btn" data-category="One Pager">One Pager</button>
+           <!-- <button class="filter-btn" data-category="env">Environment</button>
+            <button class="filter-btn" data-category="com">Computer</button>
+            <button class="filter-btn" data-category="ecogeo">Economic Geography</button>-->
+            <button class="filter-btn" data-category="phygeo">Physical Geography</button>
+         <!--   <button class="filter-btn" data-category="phy">Physics</button>
+            <button class="filter-btn" data-category="che">Chemistry</button>
+            <button class="filter-btn" data-category="indgeo">Indian Geography</button>
+            <button class="filter-btn" data-category="curaff">Current Affairs</button>
+            <button class="filter-btn" data-category="bio">Biology</button>
+            <button class="filter-btn" data-category="his">History</button>
+            <button class="filter-btn" data-category="mat">Maths</button>
+            <button class="filter-btn" data-category="eng">English Grammar</button>
+            <button class="filter-btn" data-category="engpra">English Practice</button>
+            <button class="filter-btn" data-category="pol">Polity</button>
+            <button class="filter-btn" data-category="eco">Economics</button>-->
+        </div>
+
+        <div class="stats-container">
+            <div class="stat-card">
+                <span class="stat-number" id="totalClasses">0</span>
+                <span class="stat-label">Total Classes</span>
+            </div>
+            <div class="stat-card">
+                <span class="stat-number" id="visibleClasses">0</span>
+                <span class="stat-label">Showing</span>
+            </div>
+        </div>
+
+        <div class="course-grid" id="courseGrid">
+        </div>
+
+        <div class="no-results" id="noResults" style="display: none;">
+            <p>No classes found matching your search.</p>
+        </div>
+
+        <footer class="footer">
+            <div class="footer-text">CdsJourney - Your Path to Success</div>
+        </footer>
+    </div>
+
+    <script type="module" src="main.js"></script>
+</body>
+</html>
