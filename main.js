@@ -83,8 +83,20 @@ const courses = [
         category: "Answer writing",
         videoUrl: "https://us06web.zoom.us/rec/share/NeWCPTiyonPhxyoF9AEedts-FBSQ61LBFG5ICxbjD_GUMHvrT5S4_wyQ0B9PB_8S.leawoMWQK44EMhnn" 
     },
-    { 
+	{
+        number: 2,
+        title: "Basics of Report writing",
+        category: "Answer writing",
+        videoUrl: "https://us06web.zoom.us/rec/share/9n_i4PvnqK1100mb-Z92c-_9V6Zf5ywS5k01CJ6AZdq44BhYVRgSY3k_FAxI0YZO.AYx3dS8_8z36dPGR"
+	},
+    {
         number: 1,
+        title: "Protein wali beemari",
+        category: "One Pager",
+        videoUrl:  "https://us06web.zoom.us/rec/share/5Q8eVxxZOwcjHKphlXaK_eU6gAgcmZgKoe2TUUmR7YPLpysqGYY_7FppgojouOk.hAC8HYsp9aBnOnYg?startTime=1762347252000"
+	},
+    { 
+        number: 2,
         title: "MGNREGA",
         category: "One Pager",
         videoUrl: "https://us06web.zoom.us/rec/share/TR-KU7aM4xyxJG7MCEFPnQ9IIhYSmYicmJqQk2WQUGwoL0p-VIQhEsVtCDJ1cg0L.7B8dG0BXkv_JWlb_?startTime=1764334815000"
