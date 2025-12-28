@@ -171,6 +171,75 @@ const courses = [
 	category: "Chemistry",
 	videoUrl:  'https://us06web.zoom.us/rec/share/xJB1HI0XNygNuqaXxChHArc0_K-VNm-U8tHWVeJXftQtnhX842mK_CztH5FhOox6.Zi71PKcMY1fDHegQ?startTime=1766754146000'
 },
+
+ {
+        number: 1,
+        title: "Neighbourhood first policy",
+        category: "ir",
+        videoUrl: 'https://us06web.zoom.us/rec/share/RyLeJFkGd8nTe_2vFmCUz7L5Iew_qSP9ERK-LDAMUAP7k69BcrG2YpkV01ik_-vs.xNy_ILf67IdKEqzu'
+    },
+    {
+      number: 2,
+        title: "India and its neighbours",
+        category: "ir",
+        videoUrl: 'https://us06web.zoom.us/rec/share/kGBLK9tX52UQCcuSdHPAnCnKqkkqMtb6MjB2uXmHZ04Lx6KK5FaSCQkUYi9hvftO.enAaU7RBE4IBgAzP'
+    },
+    {
+     number: 3,
+        title: "India and its neighbours-Class 2",
+        category: "ir",
+        videoUrl: 'https://us06web.zoom.us/rec/share/hjhZR1x7oVJfnpzKazK7l-4ryNHFeWAvO9MjyTFGCGN1ZaNK0NUJIj0ww7G1Fi3d.tuUMY7aLK8Dewq6n'
+    },
+    {
+      number: 4,
+        title: "India and its neighbours-Class 3",
+        category: "ir",
+        videoUrl:  'https://us06web.zoom.us/rec/share/U537QHYbvhsXcZMMTE489fEYWxBM1NLKiAmxVc3tgivLWCYJHuvmC8Nvtx37pJY.7QBt2WsQSM1ULoEp'
+    },
+    {
+      number: 5,
+        title: "India and its neighbours-Class 4",
+        category: "ir",
+        videoUrl: 'https://us06web.zoom.us/rec/share/RmESrUoLH51K6HkcP_nMcZ3mOYrnno6WlULccwHWRMm9_jK3G0j_9GYUhEqf-lRA.Pm-r8LTvA7EDUS1j'
+    },
+    {
+      
+     number: 6,
+        title: "India and its neighbours-Class 5",
+        category: "ir",
+        videoUrl: 'https://us06web.zoom.us/rec/share/F0z5SL_vcpk59mnl0YJq62lGLOHr_FINmsBRDoNiyfQdP4EYJqrnzw1xtCryL3-3.FSIHndVVXj7p3__p'
+    },
+    {
+      number: 7,
+        title: "India - Russia Relation",
+        category: "ir",
+        videoUrl:  'https://us06web.zoom.us/rec/share/XWQbcfvHb-pzH4mdR5KQkQ7L7BE0En34Jv3JdSAW-sciI-ZkQ3J05z7qG_F5zZuD.zgFMmsn1-GtK-0XJ'
+    },
+    {
+      number: 8,
+        title: "India USA Relations",
+        category: "ir",
+        videoUrl: 'https://us06web.zoom.us/rec/share/wsUTawZxThnaUtPJyR7V9MRBGSGf6Ep-zrdHx8GwycKEKfAjJ-5xp-4DN-wLWQMh.nBkOjHaIzPUmGExT'
+    },
+    {
+      number: 9,
+        title: "India Israel and Report Discussion",
+        category: "ir",
+        videoUrl:  'https://us06web.zoom.us/rec/share/JhysuBB3pm7QmEDYcYmo5aA7qIxObVYF_SUIGYb9jkXEOplrgxtI-gjhvPoNg_3I.i9uVptmaT_Ms70vj'
+    },
+    {
+      
+     number: 10,
+        title: "Essay discussion and Multilateral intitution World bank",
+        category: "ir",
+        videoUrl: 'https://us06web.zoom.us/rec/share/s_UQa2VT528iIGkHfbKE8fTfbE0xc73IQj0DxRt2xLPxgNEjQkqqh1L42FaIDXwe.f21b6M3oOtpenOPD'
+    },
+    {
+      number: 11,
+        title: "Report and Arguments discussion And Multilateral Institution - IMF",
+        category: "ir",
+        videoUrl:  'https://us06web.zoom.us/rec/share/_7FO_6zvkf9VAjvOygAqdAi19kC5RBNgdlQJYW_-2mx7_1D2g0dToUyTYnUgWouo.fJNXVp6yHbX8JsyM'
+    },
  ]; 
 
 let currentCategory = 'all';
