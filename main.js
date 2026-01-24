@@ -258,6 +258,11 @@ const courses = [
         category: "ir",
         videoUrl: "https://us06web.zoom.us/rec/share/5Rxw-U8QBFuGooqSJxx7QPCYb7oM41Rvh-sDtHEHBQtNmf6GHjHEupbumj167QAt.-VCw-0m6p5F6ih4z"
     },
+	 {
+        number: 13,
+        title: "Climatology 1",
+        category: "sample video",
+        videoUrl:
  ]; 
 
 let currentCategory = 'all';
